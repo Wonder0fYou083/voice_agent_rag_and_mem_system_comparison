@@ -1,0 +1,8 @@
+memory_system,comparison,paired_accuracy_delta,delta_ci_low,delta_ci_high,wins,losses,ties
+mem0_style,graph_rag - current_rag,-0.025,-0.125,0.05,1,2,37
+mem0_style,sag - current_rag,-0.1,-0.225,0.0,1,5,34
+mem9_style,graph_rag - current_rag,0.0,-0.125,0.125,3,3,34
+mem9_style,sag - current_rag,-0.125,-0.275,0.0,2,7,31
+memory_policy_comparison,mem0_style - mem9_style under current_rag,0.2,0.075,0.35,9,1,30
+memory_policy_comparison,mem0_style - mem9_style under graph_rag,0.175,0.075,0.3,7,0,33
+memory_policy_comparison,mem0_style - mem9_style under sag,0.225,0.075,0.375,10,1,29
